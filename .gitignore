@@ -1,0 +1,24 @@
+# Ignore MRI downloads
+NYU_MRI_Scans/
+*.nii
+*.nii.gz
+
+# nnU-Net generated data
+nnUNet_raw_data/
+nnUNet_preprocessed/
+nnUNet_results/
+predicted_masks/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+
+# Environment files (optional)
+.env
+
