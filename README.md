@@ -8,7 +8,7 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 
 ```bash
 .
-├── config.py                  # All paths and constants
+├── config.py                 A# All paths and constants
 ├── flywheel_downloader.py    # Downloads data via Flywheel SDK
 ├── organize_nnunet_data.py   # Converts to nnU-Net format
 ├── resample_utils.py         # Resamples segmentations to match MRI headers
@@ -18,3 +18,14 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 ├── main.py                   # Full end-to-end pipeline
 ├── requirements.txt
 ├── .gitignore
+
+
+
+#Sample output of compare_predictions.py
+#Displays sample Prediction vs Ground Truth
+
+
+#This comparison shows an axial slice from a brain MRI scan with the predicted tumor segmentation (right) alongside the annotated ground truth (left). The Dice similarity coefficient quantifies overlap accuracy.
+
+![Dice Score Comparison](dice_comparison.png)
+
