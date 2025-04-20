@@ -25,4 +25,4 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 
 This comparison shows an axial slice from a brain MRI scan with the predicted tumor segmentation (right) alongside the annotated ground truth (left). The Dice similarity coefficient quantifies overlap accuracy.
 
-![Dice Score Comparison](dice_comparison.png)
+<img width="703" alt="dice_comparison" src="https://github.com/user-attachments/assets/c7b6853e-ebe1-4476-88bf-f944a3b48f50" />
