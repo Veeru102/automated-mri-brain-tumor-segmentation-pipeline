@@ -14,6 +14,7 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 ├── resample_utils.py         # Resamples segmentations to match MRI headers
 ├── run_nnunet.py             # CLI wrapper for nnU-Net training + prediction
 ├── visualize_predictions.py  # Overlays predictions on MRI slices
+├── compare_predictions.py    # Creates side-by-side comparison plots w/ Dice scores
 ├── main.py                   # Full end-to-end pipeline
 ├── requirements.txt
 ├── .gitignore
