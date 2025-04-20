@@ -2,9 +2,18 @@
 
 This project automates the full pipeline for downloading brain MRI scans + tumor segmentations from Flywheel, formatting them for `nnU-Net`, training a model, and visualizing predictions.
 
+_______________________________________________________________________________________________________________________________________________________
+
+**Sample Output from compare_predictions.py
+**
+
+This comparison shows an axial slice from a brain MRI scan with the predicted tumor segmentation (right) alongside the annotated ground truth (left). The Dice similarity coefficient quantifies overlap accuracy.
+
+![image alt](https://github.com/Veeru102/NYUMets-mri-tumor-segmentation/blob/main/dice_comparison.png?raw=true)
+
 ---
 
-## Project Structure
+Project Structure
 
 ```bash
 .
@@ -19,10 +28,3 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 ├── requirements.txt
 ├── .gitignore
 
-Sample Output from compare_predictions.py
-This comparison shows an axial slice from a brain MRI scan with:
--Ground Truth Tumor (Green)
--Predicted Tumor Mask (Red)
--Dice Score shown in the title
-
-![image alt](https://github.com/Veeru102/NYUMets-mri-tumor-segmentation/blob/main/dice_comparison.png?raw=true)
