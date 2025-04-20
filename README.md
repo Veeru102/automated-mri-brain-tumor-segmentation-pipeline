@@ -4,8 +4,7 @@ This project automates the full pipeline for downloading brain MRI scans + tumor
 
 _______________________________________________________________________________________________________________________________________________________
 
-**Sample Output from compare_predictions.py
-**
+Sample Output from compare_predictions.py
 
 This comparison shows an axial slice from a brain MRI scan with the predicted tumor segmentation (right) alongside the annotated ground truth (left). The Dice similarity coefficient quantifies overlap accuracy.
 
