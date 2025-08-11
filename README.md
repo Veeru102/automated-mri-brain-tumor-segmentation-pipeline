@@ -2,6 +2,8 @@
 
 This project automates the full pipeline for downloading brain MRI scans + tumor segmentations from Flywheel, formatting them for `nnU-Net`, training a model, and visualizing predictions.
 
+
+*Disclaimer: This project is completely independent of my research position.
 _______________________________________________________________________________________________________________________________________________________
 
 Sample Output from compare_predictions.py
